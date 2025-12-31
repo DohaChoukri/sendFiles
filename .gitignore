@@ -1,4 +1,12 @@
-__pycache__
+# Python
+__pycache__/
+
+# Environnement
 .env
+
+# Logs
 error.log
+
+# Fichiers sensibles ou de configuration locale
 users.json
+extension.json

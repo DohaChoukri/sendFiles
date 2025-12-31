@@ -20,6 +20,9 @@ SMTP_PORT = int(os.getenv("SMTP_PORT")) if os.getenv("SMTP_PORT") else None
 DOSSIER_FICHIERS = os.getenv("DOSSIER_FICHIERS", os.path.join(BASE_DIR, "files"))
 USERS_FILE = os.getenv("USERS_FILE", os.path.join(BASE_DIR, "users.json"))
 DOSSIER_SAUVEGARDE = os.getenv("DOSSIER_SAUVEGARDE", r"D:\souvgarde")
+# ----- Extensions autorisées -----
+EXTENSIONS_FILE = os.getenv("EXTENSIONS_FILE", os.path.join(BASE_DIR, "extension.json"))
+
 # normalize to absolute path
 if not os.path.isabs(DOSSIER_SAUVEGARDE):
     DOSSIER_SAUVEGARDE = os.path.join(BASE_DIR, DOSSIER_SAUVEGARDE)
@@ -48,6 +51,8 @@ logger.addHandler(file_handler)
 console_handler = logging.StreamHandler()
 console_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
+
+
 
 # Startup diagnostics
 logger.info(f"Script démarré. BASE_DIR={BASE_DIR} CWD={os.getcwd()}")
@@ -103,95 +108,117 @@ def list_files():
 
 
 def send_and_backup():
-    """Orchestre l'envoi des fichiers non marqués .success, copie vers sauvegarde, renomme et nettoie."""
+    """
+    Orchestration :
+    - vérifie l’extension des fichiers
+    - envoie uniquement les extensions autorisées
+    - sauvegarde les fichiers envoyés
+    - marque les fichiers traités en .success
+    - supprime les fichiers non autorisés
+    """
     try:
         fichiers = [f for f in list_files() if not f.endswith('.success')]
+
         if not fichiers:
-            logger.info("Aucun nouveau fichier à envoyer")
+            logger.info("Aucun nouveau fichier à traiter")
             return False
 
-        # appel au module d'envoi
         from send_email import send_files as do_send
         from backup import copy_files_to_backup, cleanup_success_in_source, ensure_backup_dir
 
         ensure_backup_dir(DOSSIER_SAUVEGARDE, logger=logger)
 
-        fichiers_envoyes = do_send(fichiers, SMTP_SERVER, SMTP_PORT, EMAIL_EXPEDITEUR, MOT_DE_PASSE, USERS_FILE, logger=logger)
+        fichiers_valides = []
+        fichiers_invalides = []
 
-        if not fichiers_envoyes:
-            logger.info("Aucun fichier n'a été envoyé (send_and_backup)")
+        # 🔍 Vérification des extensions
+        for fichier in fichiers:
+            ext = os.path.splitext(fichier)[1].lower()
+            with open(EXTENSIONS_FILE, "r", encoding="utf-8") as f:
+                extensions = json.load(f)
+            for ex in extensions["ext"]:
+                if ex in ext:
+                    fichiers_valides.append(fichier)
+                else:
+                    fichiers_invalides.append(fichier)
+
+        # 🚫 Traitement des fichiers NON autorisés
+        for fichier in fichiers_invalides:
+            try:
+                logger.warning(f"Extension non autorisée : {fichier}")
+            except Exception as e:
+                logger.error(f"Erreur traitement fichier non autorisé {fichier}: {e}")
+
+        # 📤 Envoi uniquement des fichiers valides
+        if not fichiers_valides:
+            logger.info("Aucun fichier avec extension autorisée à envoyer")
             return False
 
-        # copier vers dossier de sauvegarde puis renommer chaque original en .success
-        copied = copy_files_to_backup(fichiers_envoyes, DOSSIER_SAUVEGARDE, logger=logger)
+        fichiers_envoyes = do_send(
+            fichiers_valides,
+            SMTP_SERVER,
+            SMTP_PORT,
+            EMAIL_EXPEDITEUR,
+            MOT_DE_PASSE,
+            USERS_FILE,
+            logger=logger
+        )
+
+        if not fichiers_envoyes:
+            logger.info("Aucun fichier valide n'a été envoyé")
+            return False
+
+        # 💾 Sauvegarde + renommage .success
+        copy_files_to_backup(fichiers_envoyes, DOSSIER_SAUVEGARDE, logger=logger)
 
         for fichier in fichiers_envoyes:
             try:
                 target = fichier + ".success"
-                # utiliser replace pour écraser si le fichier cible existe déjà
-                try:
-                    os.replace(fichier, target)
-                    logger.info(f"Renommé: {fichier} → {target}")
-                except Exception:
-                    # fallback: tenter de supprimer la cible puis renommer
-                    if os.path.exists(target):
-                        try:
-                            os.remove(target)
-                            os.rename(fichier, target)
-                            logger.info(f"Renommé après suppression cible: {fichier} → {target}")
-                        except Exception as e2:
-                            logger.error(f"Erreur renommage (après suppression) {fichier}: {e2}")
-                    else:
-                        logger.error(f"Erreur renommage {fichier}: inconnue")
+                os.replace(fichier, target)
+                logger.info(f"Fichier envoyé et marqué success: {fichier}")
             except Exception as e:
-                logger.error(f"Erreur traitement post-envoi {fichier}: {e}")
+                logger.error(f"Erreur renommage {fichier}: {e}")
 
-        # supprimer les .success dans le dossier source
         cleanup_success_in_source(DOSSIER_FICHIERS, logger=logger)
 
-        logger.info("send_and_backup: traitement terminé")
+        logger.info("send_and_backup: traitement terminé avec succès")
 
-        # notification de succès (simple message, sans liste de fichiers)
-        try:
-            if NOTIFY_ON_SUCCESS in ('1', 'true', 'True'):
-                from send_email import send_notification
-                send_notification(
-                    subject="Sauvegarde réussie",
-                    body="Les fichiers ont été sauvegardés avec succès.",
-                    smtp_server=SMTP_SERVER,
-                    smtp_port=SMTP_PORT,
-                    email_exp=EMAIL_EXPEDITEUR,
-                    password=MOT_DE_PASSE,
-                    users_file=USERS_FILE,
-                    notify_email=NOTIFY_EMAIL,
-                    logger=logger,
-                )
-        except Exception:
-            logger.exception("Erreur lors de l'envoi de la notification de succès")
+        # 📧 Notification succès
+        if NOTIFY_ON_SUCCESS in ('1', 'true', 'True'):
+            from send_email import send_notification
+            send_notification(
+                subject="Sauvegarde réussie",
+                body="Les fichiers autorisés ont été envoyés et sauvegardés avec succès.",
+                smtp_server=SMTP_SERVER,
+                smtp_port=SMTP_PORT,
+                email_exp=EMAIL_EXPEDITEUR,
+                password=MOT_DE_PASSE,
+                users_file=USERS_FILE,
+                notify_email=NOTIFY_EMAIL,
+                logger=logger,
+            )
 
         return True
 
     except Exception as exc:
         logger.exception(f"Erreur durant send_and_backup: {exc}")
-        # notification d'erreur (simple message)
-        try:
-            if NOTIFY_ON_ERROR in ('1', 'true', 'True'):
-                from send_email import send_notification
-                send_notification(
-                    subject="Erreur de sauvegarde",
-                    body="Une erreur est survenue lors du traitement des fichiers. Vérifiez les logs.",
-                    smtp_server=SMTP_SERVER,
-                    smtp_port=SMTP_PORT,
-                    email_exp=EMAIL_EXPEDITEUR,
-                    password=MOT_DE_PASSE,
-                    users_file=USERS_FILE,
-                    notify_email=NOTIFY_EMAIL,
-                    logger=logger,
-                )
-        except Exception:
-            logger.exception("Erreur lors de l'envoi de la notification d'erreur")
-        return False
 
+        # 📧 Notification erreur
+        if NOTIFY_ON_ERROR in ('1', 'true', 'True'):
+            from send_email import send_notification
+            send_notification(
+                subject="Erreur de sauvegarde",
+                body="Une erreur est survenue lors du traitement des fichiers. Vérifiez les logs.",
+                smtp_server=SMTP_SERVER,
+                smtp_port=SMTP_PORT,
+                email_exp=EMAIL_EXPEDITEUR,
+                password=MOT_DE_PASSE,
+                users_file=USERS_FILE,
+                notify_email=NOTIFY_EMAIL,
+                logger=logger,
+            )
+
+        return False
 
 # ----- Envoi depuis dossier de sauvegarde (nouveau comportement demandé) -----
 def send_from_backup():

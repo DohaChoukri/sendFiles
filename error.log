@@ -718,3 +718,263 @@ socket.gaierror: [Errno 11001] getaddrinfo failed
 2025-12-31 15:07:34,210 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
 2025-12-31 15:08:34,266 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
 2025-12-31 15:09:34,323 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:40:27,282 - INFO - Script démarré. BASE_DIR=D:\1-Formation Developpement Digital\foodplus\sendFiles CWD=D:\1-Formation Developpement Digital\foodplus\sendFiles
+2025-12-31 15:40:27,320 - INFO - DOSSIER_FICHIERS=C:\backup, USERS_FILE=users.json, LOG_FILE=D:\1-Formation Developpement Digital\foodplus\sendFiles\error.log
+2025-12-31 15:40:27,328 - INFO - Dossier de fichiers vérifié/créé: C:\backup
+2025-12-31 15:40:27,332 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:40:27,369 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:40:27,469 - INFO - Dossier de surveillance prêt: C:\backup
+2025-12-31 15:40:27,482 - INFO - Surveillance du dossier C:\backup. Ctrl+C pour arrêter.
+2025-12-31 15:40:28,560 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:40:48,663 - INFO - Nouveau fichier détecté: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:40:48,706 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:40:48,708 - WARNING - Extension non autorisée → marqué success: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:40:48,709 - INFO - Fichier non autorisé supprimé: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png.success
+2025-12-31 15:40:48,711 - INFO - Aucun fichier avec extension autorisée à envoyer
+2025-12-31 15:41:28,949 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:42:29,026 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:43:29,079 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:44:29,184 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:45:29,231 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:46:29,278 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:47:29,323 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:48:29,636 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:48:35,554 - INFO - Nouveau fichier détecté: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:48:35,560 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:48:35,570 - WARNING - Extension non autorisée → marqué success: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:48:35,577 - INFO - Fichier non autorisé supprimé: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png.success
+2025-12-31 15:48:35,586 - INFO - Aucun fichier avec extension autorisée à envoyer
+2025-12-31 15:48:43,652 - INFO - Script démarré. BASE_DIR=D:\1-Formation Developpement Digital\foodplus\sendFiles CWD=D:\1-Formation Developpement Digital\foodplus\sendFiles
+2025-12-31 15:48:43,659 - INFO - DOSSIER_FICHIERS=C:\backup, USERS_FILE=users.json, LOG_FILE=D:\1-Formation Developpement Digital\foodplus\sendFiles\error.log
+2025-12-31 15:48:43,667 - INFO - Dossier de fichiers vérifié/créé: C:\backup
+2025-12-31 15:48:43,680 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:48:43,705 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:48:43,875 - INFO - Dossier de surveillance prêt: C:\backup
+2025-12-31 15:48:43,887 - INFO - Surveillance du dossier C:\backup. Ctrl+C pour arrêter.
+2025-12-31 15:48:44,892 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:48:49,667 - INFO - Nouveau fichier détecté: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:48:49,682 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:48:49,694 - WARNING - Extension non autorisée → marqué success: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:48:49,696 - INFO - Fichier non autorisé supprimé: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png.success
+2025-12-31 15:48:49,699 - INFO - Aucun fichier avec extension autorisée à envoyer
+2025-12-31 15:49:45,022 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:49:45,133 - INFO - Copié depuis .success vers sauvegarde: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png.success -> D:\souvgarde\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:49:45,135 - INFO - Supprimé .success après copie: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png.success
+2025-12-31 15:49:45,136 - INFO - Periodic process-success: copiés=1, supprimés=1
+2025-12-31 15:50:45,232 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:50:52,106 - INFO - Script démarré. BASE_DIR=D:\1-Formation Developpement Digital\foodplus\sendFiles CWD=D:\1-Formation Developpement Digital\foodplus\sendFiles
+2025-12-31 15:50:52,107 - INFO - DOSSIER_FICHIERS=C:\backup, USERS_FILE=users.json, LOG_FILE=D:\1-Formation Developpement Digital\foodplus\sendFiles\error.log
+2025-12-31 15:50:52,108 - INFO - Dossier de fichiers vérifié/créé: C:\backup
+2025-12-31 15:50:52,110 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:50:52,113 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:50:52,182 - INFO - Dossier de surveillance prêt: C:\backup
+2025-12-31 15:50:52,185 - INFO - Surveillance du dossier C:\backup. Ctrl+C pour arrêter.
+2025-12-31 15:50:53,187 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:51:09,938 - INFO - Nouveau fichier détecté: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:51:09,988 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:51:10,012 - WARNING - Extension non autorisée → marqué success: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:51:10,051 - INFO - Aucun fichier avec extension autorisée à envoyer
+2025-12-31 15:51:30,403 - INFO - Nouveau fichier détecté: C:\backup\base_clients_soub.xlsx
+2025-12-31 15:51:30,410 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:51:30,413 - WARNING - Extension non autorisée → marqué success: C:\backup\base_clients_soub.xlsx
+2025-12-31 15:51:30,415 - WARNING - Extension non autorisée → marqué success: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:51:30,419 - INFO - Aucun fichier avec extension autorisée à envoyer
+2025-12-31 15:51:49,743 - INFO - Script démarré. BASE_DIR=D:\1-Formation Developpement Digital\foodplus\sendFiles CWD=D:\1-Formation Developpement Digital\foodplus\sendFiles
+2025-12-31 15:51:49,744 - INFO - DOSSIER_FICHIERS=C:\backup, USERS_FILE=users.json, LOG_FILE=D:\1-Formation Developpement Digital\foodplus\sendFiles\error.log
+2025-12-31 15:51:49,746 - INFO - Dossier de fichiers vérifié/créé: C:\backup
+2025-12-31 15:51:49,747 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:51:49,752 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:51:49,841 - INFO - Dossier de surveillance prêt: C:\backup
+2025-12-31 15:51:49,843 - INFO - Surveillance du dossier C:\backup. Ctrl+C pour arrêter.
+2025-12-31 15:51:50,846 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:52:04,290 - INFO - Nouveau fichier détecté: C:\backup\base_clients_soub.xlsx
+2025-12-31 15:52:04,305 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:52:04,313 - WARNING - Extension non autorisée → marqué success: C:\backup\base_clients_soub.xlsx
+2025-12-31 15:52:04,317 - WARNING - Extension non autorisée → marqué success: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:52:04,319 - INFO - Aucun fichier avec extension autorisée à envoyer
+2025-12-31 15:52:50,975 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:52:58,385 - INFO - Script démarré. BASE_DIR=D:\1-Formation Developpement Digital\foodplus\sendFiles CWD=D:\1-Formation Developpement Digital\foodplus\sendFiles
+2025-12-31 15:52:58,386 - INFO - DOSSIER_FICHIERS=C:\backup, USERS_FILE=users.json, LOG_FILE=D:\1-Formation Developpement Digital\foodplus\sendFiles\error.log
+2025-12-31 15:52:58,388 - INFO - Dossier de fichiers vérifié/créé: C:\backup
+2025-12-31 15:52:58,389 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:52:58,392 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:52:58,463 - INFO - Dossier de surveillance prêt: C:\backup
+2025-12-31 15:52:58,467 - INFO - Surveillance du dossier C:\backup. Ctrl+C pour arrêter.
+2025-12-31 15:52:59,469 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:53:13,142 - INFO - Nouveau fichier détecté: C:\backup\base_clients_soub.xlsx
+2025-12-31 15:53:13,158 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:53:13,165 - WARNING - Extension non autorisée → marqué success: C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 15:53:16,084 - INFO - Email envoyé à odoodhcos@gmail.com - mode pièces jointes=non
+2025-12-31 15:53:16,129 - INFO - send_email: Envoi terminé
+2025-12-31 15:53:16,134 - INFO - Copié vers sauvegarde: D:\souvgarde\base_clients_soub.xlsx
+2025-12-31 15:53:16,136 - INFO - Fichier envoyé et marqué success: C:\backup\base_clients_soub.xlsx
+2025-12-31 15:53:16,138 - INFO - Supprimé .success dans source: C:\backup\base_clients_soub.xlsx.success
+2025-12-31 15:53:16,141 - INFO - send_and_backup: traitement terminé avec succès
+2025-12-31 15:53:59,824 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:55:00,002 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:56:00,074 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:57:00,192 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:58:00,406 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 15:59:00,458 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:00:00,527 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:01:00,677 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:02:00,738 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:22:10,510 - INFO - Script démarré. BASE_DIR=D:\1-Formation Developpement Digital\foodplus\sendFiles CWD=D:\1-Formation Developpement Digital\foodplus\sendFiles
+2025-12-31 16:22:10,544 - INFO - DOSSIER_FICHIERS=C:\backup, USERS_FILE=users.json, LOG_FILE=D:\1-Formation Developpement Digital\foodplus\sendFiles\error.log
+2025-12-31 16:22:10,550 - INFO - Dossier de fichiers vérifié/créé: C:\backup
+2025-12-31 16:22:10,557 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:22:10,565 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:22:10,692 - INFO - Dossier de surveillance prêt: C:\backup
+2025-12-31 16:22:10,735 - INFO - Surveillance du dossier C:\backup. Ctrl+C pour arrêter.
+2025-12-31 16:22:11,737 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:22:25,755 - INFO - Nouveau fichier détecté: C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,790 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:22:25,816 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,817 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,818 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,819 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,821 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,822 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,824 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,825 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,826 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,827 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:25,829 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,833 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,836 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,837 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,838 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,839 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,841 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,842 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,843 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,847 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:25,848 - INFO - Aucun fichier avec extension autorisée à envoyer
+2025-12-31 16:22:45,369 - INFO - Nouveau fichier détecté: C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,380 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:22:45,395 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,401 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,417 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,420 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,423 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,429 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,432 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,434 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,436 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,438 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:22:45,440 - WARNING - Extension non autorisée : C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,441 - WARNING - Extension non autorisée : C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,447 - WARNING - Extension non autorisée : C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,449 - WARNING - Extension non autorisée : C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,451 - WARNING - Extension non autorisée : C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,452 - WARNING - Extension non autorisée : C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,453 - WARNING - Extension non autorisée : C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,455 - WARNING - Extension non autorisée : C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,456 - WARNING - Extension non autorisée : C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:45,458 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:45,461 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:45,465 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:45,467 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:45,469 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:45,470 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:45,473 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:45,475 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:45,483 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:45,484 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:22:47,488 - INFO - Email envoyé à odoodhcos@gmail.com - mode pièces jointes=non
+2025-12-31 16:22:47,554 - INFO - send_email: Envoi terminé
+2025-12-31 16:22:47,712 - INFO - Copié vers sauvegarde: D:\souvgarde\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:47,714 - INFO - Fichier envoyé et marqué success: C:\backup\CamScanner 20-11-2025 15.25.pdf
+2025-12-31 16:22:47,716 - INFO - Supprimé .success dans source: C:\backup\CamScanner 20-11-2025 15.25.pdf.success
+2025-12-31 16:22:47,718 - INFO - send_and_backup: traitement terminé avec succès
+2025-12-31 16:23:11,887 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:24:12,010 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:24:59,822 - INFO - Script démarré. BASE_DIR=D:\1-Formation Developpement Digital\foodplus\sendFiles CWD=D:\1-Formation Developpement Digital\foodplus\sendFiles
+2025-12-31 16:24:59,870 - INFO - DOSSIER_FICHIERS=C:\backup, USERS_FILE=users.json, LOG_FILE=D:\1-Formation Developpement Digital\foodplus\sendFiles\error.log
+2025-12-31 16:24:59,915 - INFO - Dossier de fichiers vérifié/créé: C:\backup
+2025-12-31 16:24:59,953 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:24:59,994 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:25:00,212 - INFO - Dossier de surveillance prêt: C:\backup
+2025-12-31 16:25:00,216 - INFO - Surveillance du dossier C:\backup. Ctrl+C pour arrêter.
+2025-12-31 16:25:01,220 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:25:23,424 - INFO - Nouveau fichier détecté: C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,440 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:25:23,453 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,461 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,464 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,467 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,469 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,471 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,474 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,476 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,477 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,479 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:23,481 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,483 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,484 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,490 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,494 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,495 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,497 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,498 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,500 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,500 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:23,501 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,503 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,505 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,508 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,510 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,512 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,513 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,514 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,515 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,517 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:23,519 - INFO - Aucun fichier avec extension autorisée à envoyer
+2025-12-31 16:25:49,600 - INFO - Nouveau fichier détecté: C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:49,608 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
+2025-12-31 16:25:49,625 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,633 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,646 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,649 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,653 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,656 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,658 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,661 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,662 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,664 - WARNING - Extension non autorisée : C:\backup\arrow-repeat.svg
+2025-12-31 16:25:49,665 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,666 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,667 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,672 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,674 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,676 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,677 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,678 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,679 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,680 - WARNING - Extension non autorisée : C:\backup\b3a25f06-02bf-4553-add7-0592374131eb.png
+2025-12-31 16:25:49,681 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,683 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,685 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,688 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,690 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,691 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,693 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,694 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,697 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,698 - WARNING - Extension non autorisée : C:\backup\ChatGPT Image 30 déc. 2025, 11_45_11.png
+2025-12-31 16:25:49,700 - WARNING - Extension non autorisée : C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:49,704 - WARNING - Extension non autorisée : C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:49,709 - WARNING - Extension non autorisée : C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:49,711 - WARNING - Extension non autorisée : C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:49,713 - WARNING - Extension non autorisée : C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:49,715 - WARNING - Extension non autorisée : C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:49,717 - WARNING - Extension non autorisée : C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:49,722 - WARNING - Extension non autorisée : C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:49,724 - WARNING - Extension non autorisée : C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:51,767 - INFO - Email envoyé à odoodhcos@gmail.com - mode pièces jointes=non
+2025-12-31 16:25:51,819 - INFO - send_email: Envoi terminé
+2025-12-31 16:25:51,883 - INFO - Copié vers sauvegarde: D:\souvgarde\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:51,885 - INFO - Fichier envoyé et marqué success: C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf
+2025-12-31 16:25:51,888 - INFO - Supprimé .success dans source: C:\backup\Tickets - Business Show Casablanca (11_27_2025 18_00_00) - doha choukri.pdf.success
+2025-12-31 16:25:51,889 - INFO - send_and_backup: traitement terminé avec succès
+2025-12-31 16:26:01,305 - INFO - Dossier de sauvegarde vérifié/créé: D:\souvgarde
